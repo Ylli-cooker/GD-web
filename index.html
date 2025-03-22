@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #FD0707;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #660E4B;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: #FD0707;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #3503BD;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>GD Nuker</h1>
+  <p>Join the server</p>
+</div>
+
+<div class="topnav">
+  <a href="https://discord.gg/AysxbxsRKm">Server</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>How to nuke?</h2>
+      <h5> Add the bot 📝〡bot・invite </h5>
+<h5> When you added it to the server u want to nuke </h5>
+<h5> Do ,help to see all commands </h5>
+<h5> But the nuke command is ,cp </h5>
+<h5> And it should nuke </h5>
+<img src="data:image/jpeg;base64,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" alt="Description of Image" width="500" height="300">
+
+    </div>
+
+
+</body>
+</html>
+
+
